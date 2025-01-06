@@ -1,0 +1,203 @@
+*{
+	font-family: "Tahoma", "Arial", sans-serif;
+	/*font-size: 12px; /*(locate here will difficult to change table's td font-size, so moved to body)*/
+	margin:0;
+	/*vertical-align: bottom;*/
+	line-height: 18px;
+}
+div.inline{
+	display: inline;
+}
+.bold{
+	font-weight: bold;
+}
+/*
+	for tablesorter in ajax-ObjSelect.php
+*/
+.ellipsis{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+input[type="text"]{
+	font-size: 12px;
+}
+input[type="button"], input[type="submit"]{
+	font-size: 13px;
+    background-color: orange;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+}
+input[type="button"].disabled, input[type="submit"].disabled{
+    background-color: #bbb;
+    border:none;
+}
+input[type="button"]:hover, input[type="submit"]:hover {
+    background:red;
+    border: none;
+    box-shadow: 0px 0px 1px #777;
+}
+input[type="button"].disabled:hover, input[type="submit"].disabled:hover {
+    background-color: #bbb;
+}
+img{
+	border: 0;
+	/*vertical-align: text-bottom;*/
+}
+a{
+	text-decoration:none;
+	color: #FDFDFD;
+}
+a:link{
+	/*cursor: url("images/sys/doggy.ani"), url("../images/sys/doggy.png"), default;*/
+	COLOR: #2376BC;
+}
+a:visited{
+	/*cursor: url("images/sys/doggy.ani"), url("../images/sys/doggy.png"), default;*/
+	COLOR: #2376BC;
+}
+a:active{
+	/*cursor: url("images/sys/doggy.ani"), url("../images/sys/doggy.png"), default;*/
+	COLOR: #2376BC;
+}
+a:hover{
+	/*cursor: url("images/sys/doggy.ani"), url("../images/sys/doggy.png"), default;*/
+	COLOR: #D90000; /*#2376BC;*/
+}
+ul{
+	list-style:none;
+}
+.borderRadius_Border{
+	behavior: url(PIE-1.0.0/PIE.htc);
+	border:1px #cccccc solid;
+	border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px;
+}
+.hidden{
+	display: none;
+}
+.nowrap{
+	white-space: nowrap;
+}
+input.readonly{
+	background-color:#ccc;
+}
+.userMsgBG{
+	/*background-color:yellow;*/
+	text-align:center;
+	width:100%;
+}
+.userMsg{
+	color: green;
+	font-weight: bold;
+}
+
+html{
+	/*height: 100%;*/
+}
+body {
+	margin:0 10px 50px 10px;
+	/*background: #000000 url("../images/sys/bg.jpg") fixed no-repeat center top;*/
+	
+	/*background-image: url("../images/sys/bg.jpg");*/
+	/*background-repeat: repeat;*/
+	/*background-color: #008DA9;*/
+	/*background-image: url('http://downloadlink.ppwgroup.com/new.ppwgroup.com/images/sys/BannerLogo.png');
+	background-repeat: no-repeat;
+	background-position: center top;*/
+	background-color: #E2F1F6;
+	/*background-position: center top;
+	background-attachment: fixed;*/
+	font-size: 12px;
+	height: 100%;
+	color: #363636;
+	padding:0;
+	overflow-x: auto;
+	overflow-y: scroll;
+	/*cursor: url("http://downloadlink.ppwgroup.com/new.ppwgroup.com/images/sys/doggy.ani"), url("http://downloadlink.ppwgroup.com/new.ppwgroup.com/images/sys/doggy.png"), default;*/
+	/*cursor: url("images/sys/doggy.ani"), url("../images/sys/doggy.png"), default;*/
+	/*text-align: center;*/ 
+}
+
+#wrapper{
+	/*border: 1px #000 solid;*/
+	position: relative;
+	/*max-width: 1010px;*/
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+	/*padding-top: 35px; /*for top floating menu*/
+	
+	/*background-color: #555;*/
+	height: auto !important; min-height: 100%; height: 100%;
+}
+
+/****
+table
+****/
+.tomTable {
+	width: 100%;
+	background-color: #fff;
+	/*margin: 10px 0 15px;*/
+	text-align: left;
+	border-spacing: 0;
+	border: #cdcdcd 1px solid;
+	border-width: 1px 0 0 1px;
+    border-spacing: 0;
+    border-collapse: separate;
+}
+.tomTable th,
+.tomTable td {
+	border: #cdcdcd 1px solid;
+	border-width: 0 1px 1px 0;
+}
+
+/* header */
+.tomTable th,
+.tomTable thead td {
+	font: bold 12px/18px Arial, Sans-serif;
+	color: #000;
+	background-color: #99bfe6;
+	border-collapse: collapse;
+	padding: 4px;
+	text-shadow: 0 1px 0 rgba(204, 204, 204, 0.7);
+}
+.tomTable tbody td,
+.tomTable tfoot th,
+.tomTable tfoot td {
+	padding: 4px;
+	vertical-align: top;
+}
+.tomTable .header,
+.tomTable .table-header {
+	/* black (unsorted) double arrow */
+	background-image: url(data:image/gif;base64,R0lGODlhFQAJAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAkAAAIXjI+AywnaYnhUMoqt3gZXPmVg94yJVQAAOw==);
+	/* white (unsorted) double arrow */
+	/* background-image: url(data:image/gif;base64,R0lGODlhFQAJAIAAAP///////yH5BAEAAAEALAAAAAAVAAkAAAIXjI+AywnaYnhUMoqt3gZXPmVg94yJVQAAOw==); */
+	/* image */
+	/* background-image: url(images/black-unsorted.gif); */
+	background-repeat: no-repeat;
+	background-position: center right;
+	padding: 4px 18px 4px 4px;
+	white-space: normal;
+	cursor: pointer;
+}
+
+/*****
+others
+******/
+#overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+	z-index: 8;
+	display: none;
+}
