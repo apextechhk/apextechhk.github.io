@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "apextechhk.com",
+  "Id": "db2d97e7-41d6-49da-b0bd-02fb4a584a68"
+}
